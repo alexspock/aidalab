@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Log-in</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/validation.js"></script>
+	</head>
+
+	<body>
+		<div class="login_block">
+		<h1>Log-in</h1><br>
+			<form name="login_form" onsubmit="return validateForm()" method="post" action="php/login.php">
+				<input type="text" name="user" placeholder="Username">
+				<input type="password" name="pwd" placeholder="Password">
+				<input type="submit" name="login" class="login login-submit" value="login">
+			</form>
+		</div>
+ 	</body>
+</html>
